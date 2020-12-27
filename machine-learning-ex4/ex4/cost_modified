@@ -1,0 +1,3 @@
+%for i = 1:num_labels
+%  J += -((y==i)') * log(hypo(:, i)) - (1 - (y==i)') * log(1 - hypo(:, i));
+%endfor
